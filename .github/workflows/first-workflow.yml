@@ -17,5 +17,5 @@ jobs:
     steps:
       - run: echo "by worlds"
       - run: echo "${{ inputs.debug }}"
-   #   - run: echo "{{ $DEBUG_OUTPUT }}"
+      - run: echo "${{ DEBUG_OUTPUT }}"
       - run: echo "${{ vars.debugg }}"
