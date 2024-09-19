@@ -10,3 +10,4 @@ jobs:
     steps:
     - run: echo "by worlds"
     - run: echo "${{inputs.debug}}"
+    - run: echo "$GITHUB_OUTPUT"
