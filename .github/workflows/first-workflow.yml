@@ -5,3 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "helloss"
+  my-second-job:
+    runs-on: macos-latest
+    steps:
+    - run: echo "by worlds"
