@@ -6,8 +6,10 @@ jobs:
     steps:
       - run: echo "helloss"
   my-second-job:
+    env: 
+      firstvar: "parag"
     runs-on: macos-latest
     steps:
     - run: echo "by worlds"
     - run: echo "${{inputs.debug}}"
-    - run: echo "$GITHUB_OUTPUT"
+    - run: echo "$firstvars"
