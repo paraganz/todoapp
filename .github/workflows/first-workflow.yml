@@ -13,3 +13,4 @@ jobs:
     - run: echo "by worlds"
     - run: echo "${{inputs.debug}}"
     - run: echo "$firstvars"
+    - run: echo "{{ $var.debugg }}"
