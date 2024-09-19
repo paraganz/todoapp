@@ -11,6 +11,6 @@ jobs:
     runs-on: macos-latest
     steps:
     - run: echo "by worlds"
-    - run: echo "${{ inputs.debug}}"
-    - run: echo "{{ $firstvars }}"
+    - run: echo "${{ inputs.debug }}"
+    - run: echo "{{ $firstvar }}"
     - run: echo "{{ $var.debugg }}"
